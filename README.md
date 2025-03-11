@@ -22,12 +22,12 @@
 1. **Clone the repository:**
    ```
    git clone https://github.com/vagiztech/NLP_HW1
-   cd flask-chatbot
+   cd NLP_HW1
    ```
 
 2. **Create a virtual environment:**
    ```
-   python -m venv venv
+   python3 -m venv venv
    ```
 
 3. **Activate the virtual environment:**
