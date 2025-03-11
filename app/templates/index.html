@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot House MD</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Chatbot</h1>
+        <form method="POST">
+            <input type="text" name="message" placeholder="Your message..." required>
+            <input type="submit" value="Send">
+        </form>
+        <div id="response">
+            {{ response }}
+        </div>
+    </div>
+</body>
+</html>
